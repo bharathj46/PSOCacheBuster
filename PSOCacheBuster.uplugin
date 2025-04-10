@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "PSOCacheBuster",
+	"Description": "Clears the PSO driver cache for non-shipping and non-editor builds for easier testing and profiling of first-run experience.",
+	"Category": "Other",
+	"CreatedBy": "Ari Arnbjörnsson",
+	"CreatedByURL": "https://ari.games",
+	"DocsURL": "https://github.com/Flassari/PSOCacheBuster",
+	"MarketplaceURL": "",
+	"SupportURL": "https://github.com/Flassari/PSOCacheBuster",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "PSOCacheBuster",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit"
+		}
+	]
+}
